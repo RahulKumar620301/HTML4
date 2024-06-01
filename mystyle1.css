@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Playfair+Display&display=swap');
+*{font-family: 'Crimson Text', serif;}
+h1,h2,h3,h4,h5,.text{font-family: 'Playfair Display', serif;}
+:root{--color1: #9AECDB; --color2:#2C3A47}
+
+
+body{background-color: var(--color1);}
+main{width: 80%; margin: auto; padding: 10px; box-sizing: border-box;
+background-color: white; box-shadow: 0px 0px 5px 5px;}
+h1{color: var(--color1)}
+h2{color: var(--color2)}
+.text{background-color: var(--color2); border: ridge var(--color1);
+padding: 10px; color: white;}
+
+.box{background: url(grass.jpg); background-position: center;}
+.box div{padding: 100px 0px; background-color: rgba(32, 191, 107,0.8);
+text-align:center; font-size: 4vw; color: white;
+font-family: 'playfair display', serif} 
+
+
